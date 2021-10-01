@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+}
+
+.heading{
+    color: black;
+    font-size: 6rem;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+}
+
+.pics{
+    width: 100%;
+    height: auto;
+}
+
+
+
+#image1{
+    background-image: url('https://i.guim.co.uk/img/media/b4671b518cf9f81e4343c5921a6210141fd9f8fa/0_92_4284_2570/master/4284.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=75205a6a967abc32d73fc80b7b23b52a');
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image1:hover{
+    transform: scale(2);
+}
+
+#image2:hover{
+    transform: scale(2);
+}
+
+#image3:hover{
+    transform: scale(2);
+}
+
+#image4:hover{
+    transform: scale(2);
+}
+
+#image2{
+    background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/04/08/08/peakyblinders.jpg?width=982&height=726&auto=webp&quality=75');
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image3{
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2017/11/peaky_blinders-h_2017.jpg?w=1024');
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image4{
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2013/10/peaky_blinders_6_0.jpg?fit=640%2C380');
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#plot{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
